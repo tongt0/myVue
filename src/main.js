@@ -7,6 +7,8 @@ import router from './router'
 import './assets/style/reset.css'
 // 解决边框问题
 import './assets/style/border.css'
+// iconfont图标
+import './assets/style/iconfont/iconfont.css'
 
 Vue.config.productionTip = false
 
@@ -16,4 +18,4 @@ new Vue({
   router,
   components: { App },
   template: '<App/>'
-})
+});

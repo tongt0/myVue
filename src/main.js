@@ -5,8 +5,9 @@ import App from './App'
 import router from './router'
 // 引入重置样式
 import './assets/style/reset.css'
-// 解决边框问题
+// 解决1像素边框问题
 import './assets/style/border.css'
+import './assets/style/iconfont/iconfont.css'
 
 Vue.config.productionTip = false
 
